@@ -67,6 +67,7 @@ public class SillyTest {
         Silly a = new Silly(1);
         Silly b = new Silly("Silly #1");
         Silly c = new Silly("my name");
+        System.out.println(c.name);
 
         assertTrue(a.equals(b));
         assertTrue(b.equals(a));
